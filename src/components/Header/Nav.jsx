@@ -25,14 +25,14 @@ function Nav() {
   ];
 
   return (
-    <div className="container mx-auto flex justify-between items-center mt-8">
+    <div className="max-w-4xl mx-auto flex justify-between items-center mt-8">
       <div>
         <img src="images/klassy-logo.png" alt="" />
       </div>
       <div>
         <ul className="flex gap-4">
           {navItems.map((item) => (
-            <li>
+            <li className="font-semibold">
               <a href={item.Link}>{item.Name}</a>
             </li>
           ))}
