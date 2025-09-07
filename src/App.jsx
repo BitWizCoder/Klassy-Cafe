@@ -1,11 +1,13 @@
-import Hero from "./components/Header/Hero";
-import Nav from "./components/Header/Nav";
+import About from "./components/About";
+import Hero from "./components/Hero";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <>
       <Nav />
       <Hero />
+      <About />
     </>
   );
 }
