@@ -25,7 +25,7 @@ function Nav() {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto flex justify-between items-center mt-8">
+    <div className="max-w-7xl mx-auto px-8 flex justify-between items-center mt-8">
       <div>
         <img src="images/klassy-logo.png" alt="" />
       </div>
