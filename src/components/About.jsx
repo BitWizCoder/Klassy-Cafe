@@ -1,14 +1,12 @@
+import SectionHeading from "./elements/SectionHeading";
+import SectionSubHeading from "./elements/SectionSubHeading";
+
 export default function About() {
   return (
     <div className="flex flex-col lg:flex-row items-center w-auto lg:max-w-7xl mx-auto mt-12 gap-16 px-8 mb-96">
       <div className="w-full md:w-1/2">
-        <div className="flex items-center gap-2 text-primary-500">
-          <div className="w-10 h-0.5 bg-primary-500"></div>
-          <p>About Us</p>
-        </div>
-        <h2 className="font-bold text-4xl py-6">
-          We Leave A Delicious Memory For You
-        </h2>
+        <SectionSubHeading text={"About Us"} />
+        <SectionHeading text={"We Leave A Delicious Memory For You"} />
 
         <p className="py-6">
           Klassy Cafe is one of the best{" "}
