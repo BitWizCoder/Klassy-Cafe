@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="flex flex-col lg:flex-row max-w-7xl mx-auto mt-12 gap-16 px-8 mb-96">
+    <div className="flex flex-col lg:flex-row items-center w-auto lg:max-w-7xl mx-auto mt-12 gap-16 px-8 mb-96">
       <div className="w-full md:w-1/2">
         <div className="flex items-center gap-2 text-primary-500">
           <div className="w-10 h-0.5 bg-primary-500"></div>
@@ -10,7 +10,7 @@ export default function About() {
           We Leave A Delicious Memory For You
         </h2>
 
-        <p>
+        <p className="py-6">
           Klassy Cafe is one of the best{" "}
           <a href="#" className="text-blue-400 hover:text-blue-500">
             restaurant HTML templates
@@ -19,35 +19,36 @@ export default function About() {
           use this website template layout for your restaurant business. You are
           allowed to use this template for commercial purposes.
         </p>
-        <p>
+        <p className="pb-6">
           You are NOT allowed to redistribute the template ZIP file on any
           template donwnload website. Please contact us for more information.
         </p>
 
-        <div className="flex gap-10">
+        <div className="flex gap-2 justify-between">
           <img
             src="images/about-thumb-01.jpg"
             alt="food image"
-            className="w-28 h-28"
+            className="w-32 h-32"
           />
           <img
             src="images/about-thumb-02.jpg"
             alt="food image"
-            className="w-28 h-28"
+            className="w-32 h-32"
           />
           <img
             src="images/about-thumb-03.jpg"
             alt="food image"
-            className="w-28 h-28"
+            className="w-32 h-32"
           />
         </div>
       </div>
-      <div className="w-full md:w-1/2 bg-[url(images/about-video-bg.jpg)] bg-cover bg-center flex  items-center justify-center object-fill">
-        <span className="bg-primary-500 w-18 h-18 flex items-center justify-center rounded-full cursor-pointer hover:bg-primary-500/70">
+      <div className="w-full md:w-1/2 relative">
+        <img src="images/about-video-bg.jpg" alt="video thumbnail" />
+        <span className="bg-primary-500 w-16 h-16 flex items-center justify-center rounded-full cursor-pointer hover:bg-primary-500/70 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="18"
-            height="18"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="white"
             stroke="white"
