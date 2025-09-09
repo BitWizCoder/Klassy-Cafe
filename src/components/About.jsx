@@ -3,7 +3,7 @@ import SectionSubHeading from "./elements/SectionSubHeading";
 
 export default function About() {
   return (
-    <div className="flex flex-col lg:flex-row items-center w-auto lg:max-w-7xl mx-auto mt-12 gap-16 px-8 mb-96">
+    <div className="flex flex-col lg:flex-row items-center w-auto lg:max-w-7xl mx-auto mt-32 gap-16 px-8">
       <div className="w-full md:w-1/2">
         <SectionSubHeading text={"About Us"} />
         <SectionHeading text={"We Leave A Delicious Memory For You"} />
