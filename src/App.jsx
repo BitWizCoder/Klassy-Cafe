@@ -4,6 +4,7 @@ import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import Nav from "./components/Nav";
+import Special from "./components/Special";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Menu />
       <Chefs />
       <Contact />
+      <Special />
     </div>
   );
 }
